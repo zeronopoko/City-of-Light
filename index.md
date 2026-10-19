@@ -4,27 +4,51 @@ Setting: Project Moon's City (*Lobotomy Corporation*, *Library of Ruina*, *Limbu
 
 Sources: the City Encyclopedia by @wolverror (updated Sep 30, 2026) and the Limbus Company Wiki (limbuscompany.wiki.gg, CC BY-SA 4.0). Paraphrased and condensed for roleplay use.
 
-## Files
+## Loaded files (already in Project knowledge)
 
-| File | What it covers | When to load |
-|---|---|---|
-| 01-city-basics.md | How the City works: Head, Wings, Nests, Backstreets, money, threats | Always |
-| 05-terminology.md | Glossary of in-world terms (Rats, feathers, Colors...) | Always |
-| 06-dm-guidelines.md | Rules for the AI DM: canon, tone, spoilers, loading | Always |
-| 07-district-index.md | One-line summary of all 26 districts | Always |
-| 08-district-25-current.md | Full notes on the district the story is in now | Swap when the party travels |
-| 02-character-creation.md | Building a character, limits, templates | At character creation |
-| 03-technology.md | Prosthetics, augmentation, Singularities, transport | On demand |
-| 04-taboos-and-laws.md | City Taboos, Nest Taboos, Fixer rules | On demand |
+Use these first. Do not fetch them again.
 
-## Extended lore (GitHub)
+| File | What it covers |
+|---|---|
+| index.md | This file: what exists and where to fetch it |
+| guides/terminology.md | In-world glossary (Rats, feathers, Colors...) |
+| lorebook/city-basics.md | How the City works: Head, Wings, Nests, Backstreets, money, threats |
+| lorebook/districts/district-index.md | One-line summary of all 26 districts |
+| lorebook/districts/district-25.md | Notes on the District the story is in now (swap when the character moves) |
 
-Put full district entries, Associations, Syndicates and Workshops in separate files in the repo, then list them here so the DM knows they exist:
+## Fetch when needed
+
+Fetch one of these only when the story needs it and it is not already in context.
+
+| File | Fetch when |
+|---|---|
+| guides/character-creation.md | A new character is being made |
+| lorebook/technology.md | Prosthetics, augmentation, Singularities, transport or dangerous tech come up |
+| lorebook/taboos-and-laws.md | A law, Taboo, Taboo Hunter or Nest rule matters |
+| lorebook/districts/<name>.md | The character travels to a District with its own file (add new ones to the list below) |
+| City.md | Last resort. The full encyclopedia is about 300 KB (roughly 90k tokens). Use it only for a specific detail no other file covers, and read only the part you need. |
+
+## Raw links
+
+Always use these raw links. Normal github.com pages cannot be read.
 
 ```
-District 8 (H Corp): https://raw.githubusercontent.com/<user>/<repo>/main/districts/d08.md
-Syndicates:          https://raw.githubusercontent.com/<user>/<repo>/main/syndicates.md
-Fixer Associations:  https://raw.githubusercontent.com/<user>/<repo>/main/associations.md
+Base: https://raw.githubusercontent.com/zeronopoko/City-of-Light/main/
+
+guides/character-creation.md
+lorebook/technology.md
+lorebook/taboos-and-laws.md
+lorebook/districts/district-25.md
+lorebook/districts/district-index.md
+City.md
 ```
 
-Use raw.githubusercontent.com links, not normal github.com pages.
+Add the base to each path. Example: https://raw.githubusercontent.com/zeronopoko/City-of-Light/main/lorebook/technology.md
+
+Paths are case-sensitive.
+
+## Rules for fetching
+
+- Check loaded files first, then fetch the single file that fits. Do not fetch several at once.
+- If the fetch fails or the file does not exist, stay vague, present it as a rumor, or ask the player. Never state it as fact.
+- Never mention files, the repo, or fetching in the story. Speak as the world.
